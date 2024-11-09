@@ -12,9 +12,9 @@ BuildRequires: droid-config-%{rpm_device}-preinit-plugin
 BuildRequires: droid-config-%{rpm_device}-pulseaudio-settings
 BuildRequires: droid-config-%{rpm_device}-sailfish
 # Shared between the adaptations
-BuildRequires: droid-hal-pdx235
-BuildRequires: droid-hal-pdx235-img-boot
-BuildRequires: droid-hal-pdx235-img-recovery
-BuildRequires: droid-hal-pdx235-kernel
-BuildRequires: droid-hal-pdx235-tools
-BuildRequires: droid-hal-pdx235-vendor_boot
+BuildRequires: droid-hal-%{device}
+BuildRequires: droid-hal-%{device}-img-boot
+BuildRequires: droid-hal-%{device}-img-recovery
+BuildRequires: droid-hal-%{device}-kernel
+BuildRequires: droid-hal-%{device}-tools
+BuildRequires: droid-hal-%{device}-vendor_boot
